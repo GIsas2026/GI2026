@@ -1,0 +1,41 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# Configuración local
+config.local.php
+api/config.php
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*~
+
+# Logs
+*.log
+logs/
+
+# Node modules (si se usa después)
+node_modules/
+package-lock.json
+
+# Archivos de base de datos
+*.sql.bak
+database/backups/
+
+# Caché
+.cache/
+*.cache
+
+# Credenciales (nunca subir)
+.env
+.env.local
+credentials.php
+
+# Directorios a ignorar
+uploads/
+backups/
+temp/
